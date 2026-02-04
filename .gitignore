@@ -48,6 +48,17 @@ runs/detect/val/
 .ipynb_checkpoints/
 main.ipynb
 
+# Unnecessary documentation (created for troubleshooting)
+DEPLOYMENT_GUIDE.md
+QUICK_FIX.md
+CHECKLIST.md
+app_tesseract.py
+app_easyocr.py
+requirements_tesseract.txt
+requirements_easyocr.txt
+switch_to_pytesseract.bat
+switch_to_easyocr.bat
+
 # OS
 .DS_Store
 Thumbs.db
