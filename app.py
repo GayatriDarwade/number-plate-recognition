@@ -3,11 +3,13 @@ import easyocr
 from flask import Flask, render_template, request, send_file
 from ultralytics import YOLO
 import os
+from pathlib import Path
 
 app = Flask(__name__)
 
 # Load the trained YOLOv8 model
-model = YOLO("runs\\detect\\train\\weights\\best.pt")
+model_path = Path("runs") / "detect" / "train" / "weights" / "best.pt"
+model = YOLO(str(model_path))
 
 # Initialize EasyOCR reader
 reader = easyocr.Reader(['en'])
