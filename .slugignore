@@ -1,0 +1,10 @@
+*.ipynb
+.git
+.gitignore
+README.md
+dataset/
+myenv_new/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
