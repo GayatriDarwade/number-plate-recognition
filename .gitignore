@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+myenv_new/
+.venv/
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+uploaded_image.jpg
+cropped_number_plate.jpg
+*.tmp
+
+# Unused config files
+config.py
+.env.example
+
+# Pre-trained model (not used)
+yolov8s.pt
+
+# Dataset (too large for deployment)
+dataset/
+
+# Training artifacts (only keep model weights)
+runs/detect/train/*.png
+runs/detect/train/*.jpg
+runs/detect/train/*.csv
+runs/detect/train/*.yaml
+runs/detect/train/weights/last.pt
+runs/detect/val/
+
+# Jupyter
+.ipynb_checkpoints/
+main.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
